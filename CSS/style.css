@@ -13,6 +13,7 @@ body{
 /*HEADER*/
 header{
     background-color: #ffffff;
+    margin-bottom: 30px;
 }
 
 header img{
@@ -25,4 +26,120 @@ h1{
     font-size: 50px;
     display: inline-block;
     vertical-align: middle;
+}
+
+/*MAIN*/
+main{
+    width: 60%;
+    background-color: #ffffff;
+    margin: auto;
+    border-radius: 5px;
+}
+
+.container{
+    width: 90%;
+    margin: auto;
+}
+
+/*Button*/
+.btn{
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.blue-backg{
+    background-color: #47adf1;
+    border: 1px solid #47adf1;
+    color: #ffffff;
+}
+
+.white-backg{
+    background-color: #ffffff;
+    border: 1px solid #d1d6da;
+    color: #d1d6da;
+
+}
+
+.button-container{
+    border-bottom: 1px solid #f6f8f9;
+    padding: 20px 0px 10px;
+    margin-bottom: 30px;
+}
+
+/*List*/
+.list{
+    padding-bottom: 20px;
+    list-style-type: none;
+}
+
+li{
+    line-height: 40px;
+}
+
+ul h3{
+    display: inline-block;
+    font-size: 25px;
+}
+
+.item{
+    font-size: 18px;
+}
+
+.check{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    border: 1px solid #64c0a9;
+    border-radius: 50%;
+    font-size: 13px;
+    margin: 10px;
+    color: #64c0a9;
+}
+
+.cross{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    border: 1px solid #ef6e66;
+    border-radius: 50%;
+    font-size: 13px;
+    margin: 10px;
+    color: #ef6e66;
+}
+
+.tag{
+    padding: 5px 10px;
+    margin: 5px;
+    border-radius: 12px;
+    font-size: 10px;
+    color: #ffffff;
+}
+
+/*Tag Background-color*/
+.blue{
+    background-color: #45abea;
+}
+
+.violet{
+    background-color: #9c72e4;
+}
+
+.green{
+    background-color: #64c0a9;
+}
+
+.orange{
+    background-color: #f29e33;
+}
+
+.pink{
+    background-color: #d863a1;
+}
+
+.light-green{
+    background-color: #b0c926;
 }
